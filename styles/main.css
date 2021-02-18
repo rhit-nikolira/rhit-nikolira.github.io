@@ -31,17 +31,17 @@ body {
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   /* font-size: 30px; */
   /* text-align: center; */
-  /* height: fit-content; */
+  height: fit-content;
   border: 0px;
   background-image: url("https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
 }
 
 .tabButtons {
-  background-color: white;
-  color: black;
+  background-color: lightseagreen;
+  color: white;
   border: 0px;
   width: 100%;
   margin-bottom: 5px;
