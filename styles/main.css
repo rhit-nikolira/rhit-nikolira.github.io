@@ -2,10 +2,9 @@ body {
 }
 
 #mainPage {
-  background-image: url("https://images.unsplash.com/photo-1522083165195-3424ed129620?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&w=1000&q=80");
   background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .navbar {
@@ -29,6 +28,15 @@ body {
   text-align: center;
   height: fit-content;
   border: 0px;
+}
+
+.grid-item-3 {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+  height: fit-content;
+  border: 0px;
+  background-image: url("https://images.unsplash.com/photo-1522083165195-3424ed129620?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&w=1000&q=80");
 }
 
 .tabButtons {
