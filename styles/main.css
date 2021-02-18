@@ -7,6 +7,8 @@ body {
   background-attachment: fixed;
 }
 
+
+
 .navbar {
     background-color: #800000;
     color: white;
@@ -53,6 +55,7 @@ body {
   border: 0px;
   width: 100%;
   margin-bottom: 5px;
+  left: 0;
 }
 
 .hiDiv {
