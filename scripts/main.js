@@ -15,11 +15,11 @@ rhit.main = function () {
 		console.log("On Main Page!");
 		if(document.querySelector("#portfolioButton").onclick = (event) => {
 			console.log("clicked portfolio");
-			// window.location.href = `portfolio.html`;
+			window.location.href = `portfolio.html`;
 		});
 		if(document.querySelector("#resumeButton").onclick = (event) => {
 			console.log("clicked resume");
-			// window.location.href = `resume.html`;
+			window.location.href = `resume.html`;
 		});
 	}
 	if(document.querySelector("resumePage")) {
