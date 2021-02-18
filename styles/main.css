@@ -2,7 +2,7 @@ body {
 }
 
 #mainPage {
-  background-color: black;
+  background-image: url("https://cdn.shopify.com/s/files/1/2486/4354/products/Peter-Lik-Bridge-to-the-Universe-Recess-Mount_1800x.jpg?v=1611359541");
 }
 
 .navbar {
@@ -28,19 +28,6 @@ body {
   border: 0px;
 }
 
-.grid-item-3 {
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
-  /* font-size: 30px; */
-  /* text-align: center; */
-  background-color: white;
-  /* height: fit-content; */
-  border: 0px;
-  background-image: url("https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
-}
-
 .tabButtons {
   background-color: lightseagreen;
   color: white;
@@ -50,5 +37,4 @@ body {
 }
 
 .hiDiv {
-  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
 }
