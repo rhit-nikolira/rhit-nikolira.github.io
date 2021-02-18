@@ -9,28 +9,37 @@
 /** namespace. */
 var rhit = rhit || {};
 
-/** globals */
-rhit.variableName = "";
-
-/** function and class syntax examples */
-rhit.functionName = function () {
-	/** function body */
-};
-
-rhit.ClassName = class {
-	constructor() {
-
-	}
-
-	methodName() {
-
-	}
-}
-
-/* Main */
-/** function and class syntax examples */
 rhit.main = function () {
 	console.log("Ready");
+	if(document.querySelector("#mainPage")) {
+		console.log("On Main Page!");
+		if(document.querySelector("#portfolioButton").onclick = (event) => {
+			console.log("clicked portfolio");
+			// window.location.href = `portfolio.html`;
+		});
+		if(document.querySelector("#resumeButton").onclick = (event) => {
+			console.log("clicked resume");
+			// window.location.href = `resume.html`;
+		});
+	}
+	if(document.querySelector("resumePage")) {
+		console.log("On Resume Page!");
+		if(document.querySelector("#homeButton").onclick = (event) => {
+			console.log("clicked home");
+		});
+		if(document.querySelector("#portfolioButton").onclick = (event) => {
+			console.log("clicked portfolio");
+		});
+	}
+	if(document.querySelector("portfolioPage")) {
+		console.log("On Portfolio Page!");
+		if(document.querySelector("#homeButton").onclick = (event) => {
+			console.log("clicked home");
+		});
+		if(document.querySelector("#resumeButton").onclick = (event) => {
+			console.log("clicked resume");
+		});
+	}
 };
 
 rhit.main();
