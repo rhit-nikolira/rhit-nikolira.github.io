@@ -32,8 +32,9 @@ body {
 }
 
 .grid-item-2 {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: white;
+  color: black;
   font-size: 40px;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -42,8 +43,9 @@ body {
 }
 
 .grid-item-3 {
-  background-color:rgba(0, 0, 0, 0.5);
-  color: white;
+  /* background-color:rgba(0, 0, 0, 0.5); */
+  background-color: white;
+  color: black;
   font-size: 20px;
   text-align: center;
   height: fit-content;
