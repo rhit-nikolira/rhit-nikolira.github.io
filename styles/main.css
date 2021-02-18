@@ -2,6 +2,7 @@ body {
 }
 
 #mainPage {
+  background-color: black;
 }
 
 .navbar {
@@ -20,7 +21,7 @@ body {
 }
 
 .grid-item {
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  background-color: white;
   font-size: 30px;
   text-align: center;
   height: fit-content;
@@ -31,7 +32,8 @@ body {
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   /* font-size: 30px; */
   /* text-align: center; */
-  height: fit-content;
+  background-color: white;
+  /* height: fit-content; */
   border: 0px;
   background-image: url("https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
@@ -45,4 +47,8 @@ body {
   border: 0px;
   width: 100%;
   margin-bottom: 5px;
+}
+
+.hiDiv {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
 }
