@@ -33,15 +33,16 @@ body {
 }
 
 .grid-item-2 {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   height: fit-content;
   border: 0px; 
 }
 
 .grid-item-3 {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color:rgba(0, 0, 0, 0.5);
   font-size: 20px;
   text-align: center;
   height: fit-content;
@@ -55,8 +56,5 @@ body {
   border: 0px;
   width: 100%;
   margin-bottom: 5px;
-  left: 0;
-}
-
-.hiDiv {
+  text-align: left;
 }
