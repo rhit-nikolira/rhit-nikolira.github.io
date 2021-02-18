@@ -14,30 +14,28 @@ rhit.main = function () {
 	if(document.querySelector("#mainPage")) {
 		console.log("On Main Page!");
 		if(document.querySelector("#portfolioButton").onclick = (event) => {
-			console.log("clicked portfolio");
 			window.location.href = `portfolio.html`;
 		});
 		if(document.querySelector("#resumeButton").onclick = (event) => {
-			console.log("clicked resume");
 			window.location.href = `resume.html`;
 		});
 	}
 	if(document.querySelector("resumePage")) {
 		console.log("On Resume Page!");
 		if(document.querySelector("#homeButton").onclick = (event) => {
-			console.log("clicked home");
+			window.location.href = `index.html`;
 		});
 		if(document.querySelector("#portfolioButton").onclick = (event) => {
-			console.log("clicked portfolio");
+			window.location.href = `portfolio.html`;
 		});
 	}
 	if(document.querySelector("portfolioPage")) {
 		console.log("On Portfolio Page!");
 		if(document.querySelector("#homeButton").onclick = (event) => {
-			console.log("clicked home");
+			window.location.href = `index.html`;
 		});
 		if(document.querySelector("#resumeButton").onclick = (event) => {
-			console.log("clicked resume");
+			window.location.href = `resume.html`;
 		});
 	}
 };
