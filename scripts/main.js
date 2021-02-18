@@ -36,7 +36,6 @@ rhit.PortfolioPageController = class {
 rhit.main = function () {
 	console.log("Ready");
 	if(document.querySelector("#mainPage")) {
-		console.log("On Main Page!");
 		if(document.querySelector("#portfolioButton").onclick = (event) => {
 			window.location.href = `portfolio.html`;
 		});
@@ -45,11 +44,9 @@ rhit.main = function () {
 		});
 	}
 	if(document.querySelector("#resumePage")) {
-		console.log("On Resume Page!");
 		new rhit.resumePageController();
 	}
 	if(document.querySelector("#portfolioPage")) {
-		console.log("On Portfolio Page!");
 		new rhit.PortfolioPageController();
 	}
 };
