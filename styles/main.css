@@ -1,10 +1,10 @@
 body {
-    background: #DDDDDD;
 }
 
-#main-page {
+#mainPage {
   background-image: url("https://www.teahub.io/photos/full/12-123213_wallpaper-empire-state-building-sunset-skyscrapers-new-york.jpg");
 }
+
 .navbar {
     background-color: #800000;
     color: white;
@@ -29,6 +29,8 @@ body {
 }
 
 .tabButtons {
+  background-color: white;
+  color: black;
   border: 0px;
   width: 100%;
   margin-bottom: 5px;
