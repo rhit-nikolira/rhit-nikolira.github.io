@@ -1,13 +1,8 @@
 body {
-}
-
-#mainPage {
   background-image: url("https://cdn.shopify.com/s/files/1/2486/4354/products/Peter-Lik-Bridge-to-the-Universe-Recess-Mount_1800x.jpg?v=1611359541");
   background-size: cover;
   background-attachment: fixed;
 }
-
-
 
 .navbar {
     background-color: #800000;
