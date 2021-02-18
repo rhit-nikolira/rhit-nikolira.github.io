@@ -11,6 +11,7 @@ var rhit = rhit || {};
 
 rhit.resumePageController = class {
 	constructor() {
+		console.log("Created Resume Controller!");
 		if(document.querySelector("#homeButton").onclick = (event) => {
 			window.location.href = `index.html`;
 		});
@@ -22,6 +23,7 @@ rhit.resumePageController = class {
 
 rhit.PortfolioPageController = class {
 	constructor() {
+		console.log("Created Portfolio Controller!");
 		if(document.querySelector("#homeButton").onclick = (event) => {
 			window.location.href = `index.html`;
 		});
@@ -42,11 +44,11 @@ rhit.main = function () {
 			window.location.href = `resume.html`;
 		});
 	}
-	if(document.querySelector("resumePage")) {
+	if(document.querySelector("#resumePage")) {
 		console.log("On Resume Page!");
 		new rhit.resumePageController();
 	}
-	if(document.querySelector("portfolioPage")) {
+	if(document.querySelector("#portfolioPage")) {
 		console.log("On Portfolio Page!");
 		new rhit.PortfolioPageController();
 	}
