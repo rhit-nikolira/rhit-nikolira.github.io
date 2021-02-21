@@ -65,12 +65,17 @@ body {
 }
 
 h2{
-  font-family: HeronSerif, serif;
+  font-family: 'HeronSerif', serif;
   color: rgb(65, 121, 136);
   font-weight: 700;
 } 
 h1, h3 {
   font-family: Arial;
+}
+
+h4 {
+  color: rgb(65, 121, 136);
+  font-family: 'HeronSerif', serif;
 }
 
 ul {
