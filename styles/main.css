@@ -57,6 +57,7 @@ body > main {
   /* text-align: center; */
   height: fit-content;
   border: 0px;
+  margin: 0 5px;
 }
 
 .tabButtons {
