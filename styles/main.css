@@ -1,12 +1,8 @@
 body {
 background-image: url("https://cdn.shopify.com/s/files/1/2486/4354/products/Peter-Lik-Bridge-to-the-Universe-Recess-Mount_1800x.jpg?v=1611359541");
-  /* background-image: url("https://wallpapercave.com/wp/wp2532971.jpg"); */
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  width: 1225px;
-  aspect-ratio: auto 1225 / 689;
-  height: 689px;
 }
 
 img {
