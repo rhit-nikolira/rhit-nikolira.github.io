@@ -57,7 +57,8 @@ body > main {
   /* text-align: center; */
   height: fit-content;
   border: 0px;
-  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 15px;
 }
 
 .tabButtons {
@@ -76,8 +77,6 @@ h2{
   color: rgb(65, 121, 136);
   font-weight: 1000;
 } 
-h1 {
-}
 
 h4 {
   color: rgb(65, 121, 136);
