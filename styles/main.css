@@ -63,3 +63,7 @@ body {
   margin-bottom: 5px;
   text-align: left;
 }
+
+h1, h2, h3 {
+  font-family: Arial;
+}
