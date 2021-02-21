@@ -10,6 +10,12 @@ body {
     color: white;
 }
 
+body > main {
+  grid-area: main;
+  padding: 0 1rem;
+  background-color: rgba(var(--white-color), 0.6);
+}
+
 .page-container {
     margin-top: 75px;
 }
