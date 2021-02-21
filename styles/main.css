@@ -5,6 +5,12 @@ body {
   background-repeat: no-repeat;
 }
 
+img {
+  width: 1225px;
+  aspect-ratio: auto 1225 / 689;
+  height: 689px;
+}
+
 .navbar {
     background-color: #800000;
     color: white;
