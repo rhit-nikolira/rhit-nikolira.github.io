@@ -73,6 +73,9 @@ h1, h3 {
   font-family: Arial;
 }
 
-li {
-  text-align: left;
+ul {
+  display: inline-block;
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 15px;
 }
