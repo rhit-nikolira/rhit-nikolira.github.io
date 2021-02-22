@@ -4,8 +4,10 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat; */
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+    background-size: cover;
     animation: gradient 15s ease infinite;
+    background-repeat: no-repeat;
+
 }
 
 @keyframes gradient {
