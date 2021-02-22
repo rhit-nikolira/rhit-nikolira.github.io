@@ -119,3 +119,12 @@ li {
   border-radius: 50px; 
   margin: 5px 0px;
 }
+.row {
+  height: 20%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
