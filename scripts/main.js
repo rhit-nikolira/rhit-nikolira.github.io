@@ -10,10 +10,10 @@ rhit.resumePageController = class {
 	constructor() {
 		console.log("Created Resume Controller!");
 		if(document.querySelector("#homeButton").onclick = (event) => {
-			window.location.href = `index.html`;
+			window.location.href = `/index.html`;
 		});
 		if(document.querySelector("#portfolioButton").onclick = (event) => {
-			window.location.href = `portfolio.html`;
+			window.location.href = `/portfolio.html`;
 		});
 	}
 }
@@ -22,10 +22,10 @@ rhit.PortfolioPageController = class {
 	constructor() {
 		console.log("Created Portfolio Controller!");
 		if(document.querySelector("#homeButton").onclick = (event) => {
-			window.location.href = `index.html`;
+			window.location.href = `/index.html`;
 		});
 		if(document.querySelector("#resumeButton").onclick = (event) => {
-			window.location.href = `resume.html`;
+			window.location.href = `/resume.html`;
 		});
 	}
 }
@@ -34,10 +34,10 @@ rhit.main = function () {
 	console.log("Ready");
 	if(document.querySelector("#mainPage")) {
 		if(document.querySelector("#portfolioButton").onclick = (event) => {
-			window.location.href = `portfolio.html`;
+			window.location.href = `/portfolio.html`;
 		});
 		if(document.querySelector("#resumeButton").onclick = (event) => {
-			window.location.href = `resume.html`;
+			window.location.href = `/resume.html`;
 		});
 	}
 	if(document.querySelector("#resumePage")) {
