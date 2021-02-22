@@ -22,8 +22,35 @@
         <div>PORTFOLIO</div>
         <div class="project-1">
           <div>Lawl Builds</div>
-          <img src="https://firebasestorage.googleapis.com/v0/b/rosestarter-project-vault.appspot.com/o/projects%2F-MOM6omm0ayFxzdHy8Sc%2Fprimary?alt=media&token=44b4261d-475f-45d7-9dd6-7b5f5af50dac" alt="lawlBuildHomePage">
+          <div class="row">
+            <div class="column">
+              <img src="img_nature.jpg" alt="Nature" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+            </div>
+          </div>
+
+          <!-- The expanding image container -->
+          <div class="container">
+            <!-- Close the image -->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+            <!-- Expanded image -->
+            <img id="expandedImg" style="width:100%">
+
+            <!-- Image text -->
+            <div id="imgtext"></div>
+          </div>
+          <!-- <img src="https://firebasestorage.googleapis.com/v0/b/rosestarter-project-vault.appspot.com/o/projects%2F-MOM6omm0ayFxzdHy8Sc%2Fprimary?alt=media&token=44b4261d-475f-45d7-9dd6-7b5f5af50dac" alt="lawlBuildHomePage"> -->
           <a href="https://github.com/rhit-nikolira/lawlbuilds.git">GitHub(SourceCode)</a>
+          <a href="https://lawl-builds.web.app">https://lawlBuilds.web.app</a>
         </div>
       </div>
     </div>
