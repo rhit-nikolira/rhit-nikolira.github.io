@@ -111,3 +111,17 @@ ul {
 li {
   text-align: left;
 }
+
+.facePhoto {
+  width: 300px; 
+  height: 350px; 
+  border-radius: 50px; 
+  margin: 5px 0px;
+
+  border: solid 1.5em rgba(#000, .2);
+  max-width: 13em;
+  max-height: 7em;
+  background: url(oranges.jpg) 50%/ cover 
+                border-box 
+                padding-box
+}
