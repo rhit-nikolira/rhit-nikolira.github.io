@@ -121,14 +121,10 @@ li {
 }
 
 .project-1 {
-    position: relative;
+  margin: 5px 5px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(1, 100%);
 }
 
-.row {
-  height: 100px;
-}
-
-.column {
-  float: left;
-  width: 100px;
-}
